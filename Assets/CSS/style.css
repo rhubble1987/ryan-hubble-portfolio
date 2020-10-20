@@ -3,12 +3,16 @@
 }
 
 main {
-    margin-top: 20px;
-    margin-left: auto 0;
-    margin-right: auto 0;
+    margin: auto;
+    width: 80%;
 }
 
 #headshot {
     width: 250px;
     height: 250px;
 }
+
+/* .col-sm col-md-6 col-lg-9 {
+    position: absolute;
+    margin-bottom: 10px;
+} */
