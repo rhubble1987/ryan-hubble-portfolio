@@ -2,15 +2,21 @@
    font-size: 2rem;
 }
 
+
 main {
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
-#headshot {
-    width: 250px;
-    height: 250px;
+img {
+    max-width: fit-content;
+    max-height: fit-content;
 }
+
+/* #headshot {
+    width: 300px;
+    height: 300px;
+} */
 
 /* .col-sm col-md-6 col-lg-9 {
     position: absolute;
