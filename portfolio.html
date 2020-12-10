@@ -50,34 +50,35 @@
               >Portfolio <span class="sr-only">(current)</span></a
             >
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</span></a>
+          </li>
         </ul>
       </div>
     </nav>
     <!--main-->
     <main class="px-2">
-      <!--card for marketing website-->
+      <!--card for project 1-->
       <div class="card my-5 mx-sm-5 bg-light">
         <div class="card-header">
-          <h3>Marketing Website Refactor</h3>
+          <h3>Project 1 - MovieJamz</h3>
         </div>
         <div class="row no-gutters">
-          <div class="col-sm-4">
+          <div class="col-4">
             <img
-              src="Assets/Images/semantic-elements.png"
+              src="./Assets/Images/moviejamz-logo.png"
               class="card-img"
-              alt="Image of html code depicting semantic elements"
+              alt="Image of MovieJamz logo. A box of popcorn wearing headphones"
             />
           </div>
 
-          <div class="col-md-8">
+          <div class="col-8">
             <div class="card-body">
               <h5 class="card-title">
-                First homework assignment for coding bootcamp
+                First group project for coding bootcamp
               </h5>
               <p class="card-text">
-                For my first homework assignment, I had to refactor a marketing
-                website so that the code would have semantic elements, condensed
-                CSS selectors, and incorporate more accessiblity attributes.
+                For our first group project, we had to create a working app in the browser by making use of third-party APIs. For my app, my team and I came up with the concept of being able to easily search for movie scores and soundtracks. To do this, we first call the IMDB search API using an AJAX call. We then take specific data returned to display things like official movie title, composer, director, and top-billed cast. We then use that specific information to make another AJAX call to two endpoints with the iTunes search API. The first to identify the specific album, and then the second to return the specific tracks and their URLs that will take the user to the iTunes webpage. Then using DOM manipulation, all of the results are shown to the user. In addition, the user can save specific tracks, and previously searched albums are also automatically saved. This data persists after the page is refreshed by using local storage.
               </p>
             </div>
           </div>
@@ -89,7 +90,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://github.com/rhubble1987/ryan-hubble-hw1"
+                href="https://github.com/NasGenius/moviejamz"
                 ><strong>GitHub repository</strong></a
               >
             </li>
@@ -97,7 +98,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://rhubble1987.github.io/ryan-hubble-hw1/"
+                href="https://nasgenius.github.io/moviejamz/"
                 ><strong>Link to finished product</strong></a
               >
             </li>
@@ -108,27 +109,25 @@
       <!--Card for portfolio website-->
       <div class="card my-5 mx-sm-5 bg-light">
         <div class="card-header">
-          <h3>Portfolio Website</h3>
+          <h3>Weather Dashboard</h3>
         </div>
         <div class="row no-gutters">
-          <div class="col-md-9">
+          <div class="col-8">
             <div class="card-body">
               <h5 class="card-title">
-                Second homework assignment for coding bootcamp
+                Sixth homework assignment for coding bootcamp
               </h5>
               <p class="card-text">
-                For my second homework assignment, I had to my portfolio
-                website. For this project, I had to use Bootstrap to build the
-                layout and make sure that all elements were responsive to the
-                viewport.
+                For our sixth homework assignment, we were to build a weather dashboard that provides current weather for a specified location along with the forecast. To achieve this we had to use a free third party API that returns weather data for the queried location. Another functional requirement was to save previously searched locations using local storage. Using this, the last current city persists as the current city when the page is refreshed and the previously searched cities are saved so that the user can easily re-check the weather.
               </p>
             </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-4">
             <img
-              src="Assets/Images/portfolio-website.png"
+              style="object-fit: cover;"
+              src="./Assets/Images/weather-app.png"
               class="card-img"
-              alt="Image of mobile view of portfolio website."
+              alt="Image of cloud and rain icon and high and low temperatures for forecast."
             />
           </div>
         </div>
@@ -138,7 +137,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://github.com/rhubble1987/ryan-hubble-portfolio"
+                href="https://github.com/rhubble1987/weather-dashboard"
                 ><strong>GitHub repository</strong></a
               >
             </li>
@@ -146,7 +145,7 @@
               <a
                 class="nav-link"
                 target="_blank"
-                href="https://rhubble1987.github.io/ryan-hubble-portfolio/"
+                href="https://rhubble1987.github.io/weather-dashboard/"
                 ><strong>Link to finished product</strong></a
               >
             </li>
@@ -156,24 +155,25 @@
       <!--Card for password generator-->
       <div class="card my-5 mx-sm-5 bg-light">
         <div class="card-header">
-          <h3>Password Generator</h3>
+          <h3>Daily Planner App</h3>
         </div>
         <div class="row no-gutters">
-          <div class="col-sm-4">
+          <div class="col-4">
             <img
-              src="Assets/Images/password generator.png"
+              style="object-fit: cover;"
+              src="./Assets/Images/calendar-app.png"
               class="card-img"
-              alt="Image of password generator website. The website contains a white textbox with a large red button underneath that says Generate Password."
+              alt="Image of daily planner app. This image shows a screenshot of the app an highlights how the current timeblock is red while past time blocks are grey."
             />
           </div>
 
-          <div class="col-md-8">
+          <div class="col-8">
             <div class="card-body">
               <h5 class="card-title">
-                Third homework assignment for coding bootcamp
+                Fifth homework assignment for coding bootcamp
               </h5>
               <p class="card-text">
-                My third homework assignment for the coding bootcamp was to create secure password generator using Javascript. The user is given a sequence of prompts to define the criteria for the password (e.g. length and character types). After completing these prompts, the password is generated and displayed to the user.
+                For our fifth homework assignment we were tasked with building a daily planner app that always the user to save events in 1-hour time-blocks. The page will also dymnamically highlight past, current, and future timeblocks in the day based on the current time.
               </p>
             </div>
           </div>
