@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import ResumeFile from "../Assets/PDFs/resume2021-03-12.pdf";
 
 function Header() {
     const location = useLocation();
@@ -37,9 +38,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item d-block d-sm-none">
-            <Link to="./Assets/PDFs/resume2021-03-12.pdf" target="_blank" className={location.pathname === "./Assets/PDFs/resume2021-03-12.pdf" ? "nav-link active" : "nav-link"}>
-              Resume
-            </Link>
+          <a className="nav-link" target="_blank" href={ResumeFile}>Resume</a>
           </li>
         </ul>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "../Assets/Images/headshot.jpeg";
 
 function Home() {
     return (
@@ -7,7 +8,7 @@ function Home() {
           <div className="card-body text-sm-left">
             <img
               className="img-fluid img-thumbnail float-sm-left mr-sm-3 mb-0"
-              src="Assets/Images/headshot.jpeg"
+              src={Headshot}
               alt="A bald man that has glasses and a beard."
             />
             <p className="card-text">
