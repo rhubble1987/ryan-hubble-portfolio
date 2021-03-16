@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ryan-hubble-portfolio/static/css/main.4e5b6a1e.chunk.css",
+    "main.js": "/ryan-hubble-portfolio/static/js/main.01649948.chunk.js",
+    "main.js.map": "/ryan-hubble-portfolio/static/js/main.01649948.chunk.js.map",
+    "runtime-main.js": "/ryan-hubble-portfolio/static/js/runtime-main.0fe7b948.js",
+    "runtime-main.js.map": "/ryan-hubble-portfolio/static/js/runtime-main.0fe7b948.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ryan-hubble-portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2e19329d.chunk.js": "/ryan-hubble-portfolio/static/js/2.2e19329d.chunk.js",
+    "static/js/2.2e19329d.chunk.js.map": "/ryan-hubble-portfolio/static/js/2.2e19329d.chunk.js.map",
+    "index.html": "/ryan-hubble-portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ryan-hubble-portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.4e5b6a1e.chunk.css.map": "/ryan-hubble-portfolio/static/css/main.4e5b6a1e.chunk.css.map",
+    "static/js/2.2e19329d.chunk.js.LICENSE.txt": "/ryan-hubble-portfolio/static/js/2.2e19329d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fe7b948.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2e19329d.chunk.js",
+    "static/css/main.4e5b6a1e.chunk.css",
+    "static/js/main.01649948.chunk.js"
+  ]
+}
