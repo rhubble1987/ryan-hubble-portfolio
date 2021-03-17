@@ -7,6 +7,7 @@ import BurgerImage from "../Assets/Images/add-burger.png";
 import MovieJamzImage from "../Assets/Images/icon1-2.png";
 import WeatherAppImage from "../Assets/Images/forecast.png";
 import CalendarAppImage from "../Assets/Images/calendar-app.png";
+import EmployeeTableImage from "../Assets/Images/employee-table.png";
 
 
 const projects = [
@@ -54,6 +55,14 @@ const projects = [
         altText: "App interface displaying current timeblock as red while past time blocks are grey.",
         githubRepo: "https://github.com/rhubble1987/calendar-app",
         deployedApp: "https://rhubble1987.github.io/calendar-app/"
+    },
+    {
+        title: "React Employee Table",
+        subtitle: "Homework assignment for React state",
+        description: "For our homework on using React to render a page based on the current state, we were tasked with pulling a random list of users from a third-party API and then use React to put the results into a table. In addition, the app allows the user to sort results based on the employee's last name and filter for employees based in the United States. The sorting and filtering functionality are powered by React rendering the page based the app's state.",
+        projectImage: EmployeeTableImage,
+        githubRepo: "https://github.com/rhubble1987/react-employee-app",
+        deployedApp: "https://rhubble1987.github.io/react-employee-app/"
     }
 ];
 
