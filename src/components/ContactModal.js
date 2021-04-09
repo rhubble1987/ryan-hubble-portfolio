@@ -4,15 +4,15 @@ function ContactModal(props) {
   return (
     <div
       className={props.contactModal}
-      id="exampleModal"
+      id="contact-modal"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="contact-modal"
       aria-hidden="true"
     >
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title" id="exampleModalLabel">
+            <h5 className="modal-title" id="contact-modal">
               Modal title
             </h5>
             <button
