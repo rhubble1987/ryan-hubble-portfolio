@@ -12,9 +12,11 @@ function Home() {
               alt="A bald man that has glasses and a beard."
             />
             <p className="card-text">
-              Welcome to my portfolio page! My name is Ryan Hubble, and I am an aspiring full-stack web developer. I currently work
-              as a technical account manager at a startup in Columbus, Ohio. My time in my current and previous roles has led me to the decision to
-              begin the journey of becoming a developer. Being involved in tech on a daily basis has made me come to love the industry, and now I want to 
+              Welcome to my portfolio page! My name is Ryan Hubble, and I am an aspiring full-stack web developer. 
+              I have five years of experience within the healthcare tech industry as a business analyst and 
+              technical account manager. My time in my previous roles has led me to the decision to
+              begin the journey of becoming a developer. Being involved in tech on a daily basis has 
+              made me come to love the industry, and now I want to 
               take that next step and actually be able to build this stuff myself!
             </p>
           </div>
