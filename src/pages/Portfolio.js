@@ -8,9 +8,25 @@ import MovieJamzImage from "../Assets/Images/icon1-2.png";
 import WeatherAppImage from "../Assets/Images/forecast.png";
 import CalendarAppImage from "../Assets/Images/calendar-app.png";
 import EmployeeTableImage from "../Assets/Images/employee-table.png";
+import LooptiImage from "../Assets/Images/loopti.png";
 
 
 const projects = [
+    {
+        title: "Loopti",
+        subtitle: "Final project for coding bootcamp",
+        description: `For our final project, we had to build a fully functional application using MERN (MySQL, Express.js, React.js, and Node.js).
+                    The front end and HTML is entirely generated using React.js The backend server and algorithms are powered by Node.js and Express.js. And the database
+                    is built on MySQL. Loopti is a task management app that goes a bit further than other apps by prioritizing tasks for you and telling you when you should work on top priority tasks during
+                    the current day. Right now the prioritization algorithm is based on task due dates, but I have future plans to include additional criteria to 
+                    make the algorithm more flexible and to account for a wider variety of use cases. In addition, I would like to add an integration with Google Calendar and other 
+                    popular calendar apps to allow save users time from having to manually enter calendar events like meetings into the app.`,
+        projectImage: LooptiImage,
+        altText: "Loopti app menu showing links to today's schedule, adding a new task, adding a new event, and viewing all tasks.",
+        githubRepo: "https://github.com/rhubble1987/final-project",
+        deployedApp: "https://peaceful-reef-96374.herokuapp.com"
+
+    },
     {
         title: "Matinyay!",
         subtitle: "Second group project for coding bootcamp",
@@ -74,7 +90,9 @@ function Portfolio() {
                 <Container>
                     <h1>Ryan's Portfolio</h1>
                     <p>
-                    Take a look at some of the things I've been working on! Feel free to reach out if you have any questions about any of my projects.
+                    Take a look at some of the things I've been working on! Feel free to reach out if you have any questions about any of my projects. Please note
+                    all of these apps are hosted on the Heroku's free tier, which could result in some slowness upon access. Apologies for this! I plan on adding certain
+                    projects to a better tier of service so that there are not any loading delays.
                     </p>
                 </Container>
             </Jumbotron>
