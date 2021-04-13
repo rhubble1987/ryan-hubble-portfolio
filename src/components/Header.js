@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import ResumeFile from "../Assets/PDFs/ryan_hubble_resume_20210409.pdf";
+import ResumeFile from "../Assets/PDFs/ryan_hubble_resume_20210413.pdf";
 
 function Header() {
     const location = useLocation();
